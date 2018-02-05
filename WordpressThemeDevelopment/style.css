@@ -20,13 +20,15 @@ a:visited {
 p{
 	line-height: 30px;
 }
-div.container{
-	max-width: 920px;
+/*div.container{
+	max-width: 920px; 
 	margin: 0 auto;
 	padding:0 20px;
 }
+*/
 .site-header{
 	border-bottom: 2px solid #999;
+	padding-top: 20px;
 }
 
 .site-footer{
@@ -132,4 +134,91 @@ div.info-box{
 	border-bottom: 2px solid #DDD;
 	color:#333;
 	cursor: default;
+}
+
+/* Image Stles */
+
+img{
+	max-width: 100%;
+}
+
+.has-thumbnail{
+	position: relative;
+	padding-left: 200px;
+}
+
+.post-thumbnail{
+	position: absolute;
+	top:0;
+	left: 0;
+}
+
+/* search section */
+
+div.hd-search {
+	float: right;
+}
+div.hd-search label{
+	position: absolute;
+	left:-9999px;
+}
+
+div.hd-search #searchsubmit{
+	background-color: #006ec3;
+	color: #FFF;
+	padding: 5px 14px;
+	border:none; 
+	vertical-align: top;
+}
+
+div.hd-search #s{
+	vertical-align: top;
+	padding:3px;
+}
+
+/* aside article */
+
+article.post-aside,
+article.post-link{
+	font-size: 125%;
+	background-color: #fff5cb;
+	padding-top: 20px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,.1);
+}
+.mini-meta{
+	margin:0;
+	font-size:67%;
+	color:#777;
+}
+/* Link post format style */
+article.post-link a{
+	display: block;
+	padding:20px;
+}
+article.post-link{
+	padding: 0;
+	background-color: #E0EBFF;
+}
+
+/* Post gallery type */
+
+article.post-gallery{
+	background-color: #222;
+	color:#fff;
+	padding: 20px;
+}
+article.post-gallery h2{
+	text-align: center;
+}
+
+article.post-gallery img {
+	border: none!importent;
+}
+
+.widget-item li {
+	font-size: 80%;
+}
+widget-item h4 {
+	font-size: 1rem !importent;
 }
