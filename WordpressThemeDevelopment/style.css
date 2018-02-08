@@ -222,3 +222,27 @@ article.post-gallery img {
 widget-item h4 {
 	font-size: 1rem !importent;
 }
+
+/* footer callout*/ 
+.footer-callout{
+	background-color:#ddd;
+	padding:20px;
+	margin: 30px 0 0 0 ;
+}
+.footer-callout-image{
+	float: left;
+	width:30%;
+}
+
+.footer-callout-text{
+	float: right;
+	width:68%;
+}
+.footer-callout-text h2{
+	font-size: 1.7rem;
+	margin: 0 0 .35rem 0;
+}
+.footer-callout-text p{
+	font-size: .9rem;
+	
+}

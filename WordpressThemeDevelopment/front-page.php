@@ -1,7 +1,7 @@
 <?php
 
 get_header();
-
+get_template_part('slider');
 ?>
 <!-- main column -->
 	<div class="row">

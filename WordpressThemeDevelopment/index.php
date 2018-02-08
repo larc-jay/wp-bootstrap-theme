@@ -14,7 +14,9 @@ get_header();
 							get_template_part('content', get_post_format());
 							
 						endwhile;
-
+						echo paginate_links();
+						//previous_posts_link();
+						//next_posts_link();
 					else :
 						 echo "<p> No content found </p>";
 					endif;

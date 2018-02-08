@@ -29,4 +29,5 @@
 			?>
 			<?php wp_nav_menu($args) ?>
 		</nav>	
+		<!-- Place somewhere in the <body> of your page -->
 	</header>	
